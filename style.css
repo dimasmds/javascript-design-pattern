@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.flex-container-column {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    flex-basis: 25%;
+    padding: 30px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: cornsilk;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.button:hover {
+    font-weight: bold;
+}
+
+.display {
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 2em;
+    text-align: right;
+    background-color: #333333;
+    color: white;
+}
+
+.negative,
+.operator,
+.equals {
+    background-color: orange;
+}
+
+.double {
+    flex-basis: 50%;
+}
